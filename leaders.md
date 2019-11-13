@@ -1,4 +1,4 @@
 ### Leaders
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
-* [Leader Name](mailto://leader.email@owasp.org)
+* [Bruce Mayhew](mailto://webgoat@owasp.org)
+* [Nanne Baars](mailto://nanne.baars@owasp.org)
+* [Jason White](mailto://jason.white@owasp.org)
