@@ -14,7 +14,8 @@ type: tool
 
 ## Learn the hack - Stop the attack
 
-WebGoat is a deliberately insecure application that allows interested developers just like you to test vulnerabilities commonly found in Java-based applications that use common and popular open source components.
+WebGoat is a deliberately insecure application that allows interested developers just like you to test vulnerabilities 
+commonly found in Java-based applications that use common and popular open source components.
 
 ## Description 
 
@@ -22,16 +23,13 @@ Web application security is difficult to learn and practice. Not many people hav
 
 Even if your intentions are good, we believe you should never attempt to find vulnerabilities without permission. The primary goal of the WebGoat project is simple: create a de-facto interactive teaching environment for web application security. In the future, the project team hopes to extend WebGoat into becoming a security benchmarking platform and a Java-based Web site Honeypot.
 
-## Licensing
+**WARNING 1:** *While running this program your machine will be extremely
+vulnerable to attack. You should disconnect from the Internet while using
+this program.*  WebGoat's default configuration binds to localhost to minimize
+the exposure.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the
-GNU General Public License as published by the Free Software Foundation; either version 2 of the
-License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
-even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program; if
-not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
-02111-1307, USA.
+**WARNING 2:** *This program is for educational purposes only. If you attempt
+these techniques without authorization, you are very likely to get caught. If
+you are caught engaging in unauthorized hacking, most companies will fire you.
+Claiming that you were doing security research will not work as that is the
+first thing that all hackers claim.*
