@@ -7,7 +7,7 @@ tags: webgoat
 ---
 
 <p> 
-<img src="/assets/images/wolf-enabled.png" width="8%" heigth="8%" align="right">
+<img src="assets/images/wolf-enabled.png" width="8%" heigth="8%" align="right">
 <br/>
 </p>
 

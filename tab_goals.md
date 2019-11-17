@@ -22,7 +22,7 @@ platform and a Java-based Web site Honeypot.
 
 
 <p> 
-<h3><img src="/assets/images/teach.png" width="8%" heigth="8%">Explain the vulnerability</h3>
+<h3><img src="assets/images/teach.png" width="8%" heigth="8%">Explain the vulnerability</h3>
 </p>
 
 
@@ -32,7 +32,7 @@ Teaching is now a first class citizen of WebGoat, we explain explain the vulnera
 focus on explaining from the beginning what for example a SQL injection is. 
 
 <p> 
-<h3><img src="/assets/images/assignment.png" width="8%" heigth="8%">Learn by doing</h3>
+<h3><img src="assets/images/assignment.png" width="8%" heigth="8%">Learn by doing</h3>
 </p>
 
 During the explanation of a vulnerability we build assignments which will help you understand how it works.
@@ -41,7 +41,7 @@ During the explanation of a vulnerability we build assignments which will help y
 
 
 <p> 
-<h3><img src="/assets/images/mitigation.png" width="8%" heigth="8%">Explain mitigation</h3>
+<h3><img src="assets/images/mitigation.png" width="8%" heigth="8%">Explain mitigation</h3>
 </p>
 
 At the end of each lesson you will receive an overview of possible mitigations which will help you during your 
