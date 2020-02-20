@@ -28,7 +28,7 @@ platform and a Java-based Web site Honeypot.
 
 ![](https://webgoat.github.io/WebGoat/img/portfolio/lesson.png)
 
-Teaching is now a first class citizen of WebGoat, we explain explain the vulnerability. Instead of 'just hacking' we now
+Teaching is now a first class citizen of WebGoat, we explain the vulnerability. Instead of 'just hacking' we now
 focus on explaining from the beginning what for example a SQL injection is. 
 
 <p> 
