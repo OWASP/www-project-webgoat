@@ -22,10 +22,10 @@
 * [Slack](https://owasp.slack.com/messages/#project-webgoat/)
 
 ### Project classification
-[![Flagship Project](https://www2.owasp.org/assets/images/common/owasp_level_labs.svg)](https://www.owasp.org/index.php/OWASP_Project_Stages#Lab_Projects)
+[![Lab Project](https://owasp.org/assets/images/common/owasp_level_labs.svg)](https://www.owasp.org/index.php/OWASP_Project_Stages#Lab_Projects)
 
-[![Builders](https://www2.owasp.org/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
-[![Breakers](https://www2.owasp.org/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers)
-[![Defenders](https://www2.owasp.org/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
+[![Builders](https://owasp.org/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
+[![Breakers](https://owasp.org/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers)
+[![Defenders](https://owasp.org/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
 
-[![Tool Project](https://www2.owasp.org/assets/images/common/owasp_tool_project.svg)](https://www.owasp.org/index.php/Category:OWASP_Tool)
+[![Tool Project](https://owasp.org/assets/images/common/owasp_tool_project.svg)](https://www.owasp.org/index.php/Category:OWASP_Tool)
