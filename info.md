@@ -21,6 +21,11 @@
 * [Twitter](https://twitter.com/OWASP_WebGoat)
 * [Slack](https://owasp.slack.com/messages/#project-webgoat/)
 
+### Project Information
+
+* <i class="fas fa-flask" style="font-size: 1.3em; color:#2ADA08;"></i>
+  <span style="font-size: 1.3em;">Lab Project</span>
+
 #### Classification
 
 * <i class="fas fa-tools" style="color:#233e81;"></i> Tool
