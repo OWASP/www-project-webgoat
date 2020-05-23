@@ -21,11 +21,12 @@
 * [Twitter](https://twitter.com/OWASP_WebGoat)
 * [Slack](https://owasp.slack.com/messages/#project-webgoat/)
 
-### Project classification
-[![Lab Project](https://owasp.org/assets/images/common/owasp_level_labs.svg)](https://www.owasp.org/index.php/OWASP_Project_Stages#Lab_Projects)
+#### Classification
 
-[![Builders](https://owasp.org/assets/images/common/owasp_builders.svg)](https://www.owasp.org/index.php/Builders)
-[![Breakers](https://owasp.org/assets/images/common/owasp_breakers.svg)](https://www.owasp.org/index.php/Breakers)
-[![Defenders](https://owasp.org/assets/images/common/owasp_defenders.svg)](https://www.owasp.org/index.php/Defenders)
+* <i class="fas fa-tools" style="color:#233e81;"></i> Tool
 
-[![Tool Project](https://owasp.org/assets/images/common/owasp_tool_project.svg)](https://www.owasp.org/index.php/Category:OWASP_Tool)
+#### Audience
+
+* <i class="fas fa-toolbox" style="color:#233e81;"></i> Builder
+* <i class="fas fa-hammer" style="color:#233e81;"></i> Breaker
+* <i class="fas fa-shield-alt" style="color:#233e81;"></i> Defender
