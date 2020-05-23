@@ -3,7 +3,7 @@
 
 ### Downloads
 * [Standalone jar](https://github.com/WebGoat/WebGoat/releases)
-* [Docker Image](https://hub.docker.com/r/webgoat/webgoat-8.0)
+* [Docker Image](https://hub.docker.com/r/webgoat/webgoat)
 
 
 ### Code Repository
