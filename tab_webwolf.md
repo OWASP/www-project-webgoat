@@ -42,10 +42,12 @@ information about the complete request. Think of it as a very simple form of `ne
 
 ## Running
 
-WebWolf runs as a separate web application. If you are using the Docker-compose file you can just point your browser 
-`http://localhost:9090/WebWolf` to open WebWolf. It will 
+### 1. Docker
 
-### 1. Standalone
+If you started the Docker image, WebWolf is already running. Please point your browser to: http://localhost:9090/WebWolf
+
+
+### 2. Standalone
 
 If you want to use the standalone version, you will need to download the jar file and start it:
 
@@ -53,15 +55,5 @@ If you want to use the standalone version, you will need to download the jar fil
 java -jar webwolf-<<version>>.jar [--server.port=9090] [--server.address=localhost]
 ```
 
-By default WebWolf starts on port 9090 with `--server.port` you can specify a different port. With `server.address` you
+By default, WebWolf starts on port 9090 with `--server.port` you can specify a different port. With `server.address` you
 can bind it to a different address (default localhost)
-
-
-### 2. Run using Docker
-
-```Shell
-docker pull webgoat/webwolf
-docker run -p 9090:9090 -t webgoat/webwolf```
-
-
-Note: if you start WebGoat as standalone application you need to start WebWolf as standalone application as well.

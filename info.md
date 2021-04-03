@@ -1,10 +1,6 @@
-### Home
-* [Home page](https://webgoat.github.io/WebGoat/)
-
 ### Downloads
 * [Standalone jars](https://github.com/WebGoat/WebGoat/releases)
 * [Docker Image](https://hub.docker.com/r/webgoat/goatandwolf)
-
 
 ### Code Repository
 * [Source code](https://github.com/WebGoat/WebGoat)
@@ -16,6 +12,7 @@
 * [Solutions](https://github.com/WebGoat/WebGoat/wiki/Main-Exploits)
 
 ### Around the Web
+* [Gitter](https://gitter.im/OWASPWebGoat/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 * [Mail](mailto://webgoat@owasp.org)
 * [StackOverflow](https://stackoverflow.com/search?q=webgoat)
 * [Twitter](https://twitter.com/OWASP_WebGoat)
