@@ -8,7 +8,6 @@ tags: webgoat
 
 ## Getting started
 
-
 ### 1. Standalone 
 
 Download the latest WebGoat release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
@@ -44,3 +43,6 @@ curl https://raw.githubusercontent.com/WebGoat/WebGoat/develop/docker-compose.ym
 
 Using the `docker-compose` file will simplify getting WebGoat and WebWolf up and running.
 
+### Running
+
+Once started point your browser to `http://localhost:8080/WebGoat` to open WebGoat
