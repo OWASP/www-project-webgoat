@@ -1,3 +1,10 @@
 __pycache__
 env
 .vscode
+/.gitconfig
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/www-project-webgoat.iml

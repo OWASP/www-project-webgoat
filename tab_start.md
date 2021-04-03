@@ -9,38 +9,35 @@ tags: webgoat
 ## Getting started
 
 
-### 1. Standalone 
+### 1. Run using Docker
 
-Download the latest WebGoat release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
-
-```Shell
-java -jar webgoat-server-8.0.0.VERSION.jar [--server.port=8080] [--server.address=localhost]
-```
-
-The latest version of WebGoat needs Java 11. By default WebGoat starts on port 8080 with `--server.port` you can specify a different port. With `server.address` you
-can bind it to a different address (default localhost)
-
-
-### 2. Run using Docker
-
-Every release is also published on [DockerHub](https://hub.docker.com/r/webgoat/webgoat-8.0/).
+The easiest way to start WebGoat as a Docker container is to use the all-in-one Docker container. This is a Docker image that has WebGoat and WebWolf running inside.
 
 ```Shell
-docker pull webgoat/webgoat-8.0
-docker run -p 8080:8080 -t webgoat/webgoat-8.0
+docker run -p 8080:8080 -p 9090:9090 -p 80:8888 -e TZ=Europe/Amsterdam webgoat/goatandwolf:latest
 ```
 
-### 3. Using docker-compose
+and browse to http://localhost:8080/WebGoat.
 
-The easiest way to start WebGoat as a Docker container is to use the `docker-compose.yml` [file](https://raw.githubusercontent.com/WebGoat/WebGoat/develop/docker-compose.yml) 
-from our Github repository. This will start both containers and it also takes care of setting up the
-connection between WebGoat and WebWolf.
+## 2. Standalone
 
-```shell
-curl https://raw.githubusercontent.com/WebGoat/WebGoat/develop/docker-compose.yml | docker-compose -f - up
+Download the latest WebGoat and WebWolf release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
+
+```Shell
+java -jar webgoat-server-8.1.0.jar [--server.port=8080] [--server.address=localhost]
+java -jar webwolf-8.1.0.jar [--server.port=9090] [--server.address=localhost]
 ```
 
-**Important**: the current directory on your host will be mapped into the container for keeping state.
+and browse to http://localhost:8080/WebGoat
 
-Using the `docker-compose` file will simplify getting WebGoat and WebWolf up and running.
+The latest version of WebGoat needs Java 15 or above. By default, WebGoat uses port 8080, the database uses 9000 and WebWolf use port 9090 with the environment variable `WEBGOAT_PORT`, `WEBWOLF_PORT` and `WEBGOAT_HSQLPORT` you can set different values.
 
+```Shell
+export WEBGOAT_PORT=18080
+export WEBGOAT_HSQLPORT=19001
+export WEBWOLF_PORT=19090
+java -jar webgoat-server-8.1.0.jar
+java -jar webwolf-8.1.0.jar 
+```
+
+Use `set` instead of export on Windows cmd. 
