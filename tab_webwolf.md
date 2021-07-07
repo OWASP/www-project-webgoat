@@ -43,7 +43,7 @@ information about the complete request. Think of it as a very simple form of `ne
 ## Running
 
 WebWolf runs as a separate web application. If you are using the Docker-compose file you can just point your browser 
-`http://localhost:9090/WebWolf` to open WebWolf. It will 
+`http://localhost:9090/WebWolf` to open WebWolf.
 
 ### 1. Standalone
 
