@@ -7,7 +7,7 @@ level: 3
 type: tool
 
 ---
-![WebGoat Loge](https://raw.githubusercontent.com/WebGoat/WebGoat/develop/webgoat-lessons/challenge/src/main/resources/images/webgoat2.png)
+![WebGoat Loge](https://raw.githubusercontent.com/WebGoat/WebGoat/main/src/main/resources/lessons/challenges/images/webgoat2.png)
 
 [![GitHub release](https://img.shields.io/github/v/release/WebGoat/WebGoat.svg)](https://github.com/WebGoat/WebGoat/releases/latest)
 
