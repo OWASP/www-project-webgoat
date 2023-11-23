@@ -1,6 +1,6 @@
 ### Downloads
 * [Standalone jars](https://github.com/WebGoat/WebGoat/releases)
-* [Docker Image](https://hub.docker.com/r/webgoat/goatandwolf)
+* [Docker Image](https://hub.docker.com/r/webgoat/webgoat)
 
 ### Code Repository
 * [Source code](https://github.com/WebGoat/WebGoat)
