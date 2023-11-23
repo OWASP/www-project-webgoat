@@ -8,7 +8,7 @@ tags: webgoat
 
 ## Lessons
 
-WebGoat 8 contains lesson for almost all OWASP Top 10 vulnerabilities and more... 
+WebGoat contains lesson for almost all OWASP Top 10 vulnerabilities and more... 
 
 ![](assets/images/lesson-overview.png)
 
