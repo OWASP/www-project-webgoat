@@ -11,33 +11,43 @@ tags: webgoat
 
 ### 1. Run using Docker
 
-The easiest way to start WebGoat as a Docker container is to use the all-in-one Docker container. This is a Docker image that has WebGoat and WebWolf running inside.
+Already have a browser and ZAP and/or Burp installed on your machine in this case you can run the WebGoat image directly using Docker.
 
-```Shell
-docker run -p 8080:8080 -p 9090:9090 -p 80:8888 -e TZ=Europe/Amsterdam webgoat/goatandwolf:latest
+Every release is also published on [DockerHub](https://hub.docker.com/r/webgoat/webgoat).
+
+```shell
+docker run -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat
 ```
 
-and browse to http://localhost:8080/WebGoat.
+If you want to reuse the container, give it a name:
 
-## 2. Standalone
-
-Download the latest WebGoat and WebWolf release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
-
-```Shell
-java -jar webgoat-server-8.1.0.jar [--server.port=8080] [--server.address=localhost]
-java -jar webwolf-8.1.0.jar [--server.port=9090] [--server.address=localhost]
+```shell
+docker run --name webgoat -it -p 127.0.0.1:8080:8080 -p 127.0.0.1:9090:9090 webgoat/webgoat
 ```
 
-and browse to http://localhost:8080/WebGoat
+As long as you don't remove the container you can use:
 
-The latest version of WebGoat needs Java 15 or above. By default, WebGoat uses port 8080, the database uses 9000 and WebWolf use port 9090 with the environment variable `WEBGOAT_PORT`, `WEBWOLF_PORT` and `WEBGOAT_HSQLPORT` you can set different values.
-
-```Shell
-export WEBGOAT_PORT=18080
-export WEBGOAT_HSQLPORT=19001
-export WEBWOLF_PORT=19090
-java -jar webgoat-server-8.1.0.jar
-java -jar webwolf-8.1.0.jar 
+```shell
+docker start webgoat
 ```
 
-Use `set` instead of export on Windows cmd. 
+This way, you can start where you left off. If you remove the container, you need to use `docker run` again.
+
+
+### 2. Run using Docker with complete Linux Desktop
+
+Instead of installing tools locally we have a complete Docker image based on running a desktop in your browser. This way you only have to run a Docker image which will give you the best user experience.
+
+```shell
+docker run -p 127.0.0.1:3000:3000 webgoat/webgoat-desktop
+```
+
+### 3. Standalone
+
+Download the latest WebGoat release from [https://github.com/WebGoat/WebGoat/releases](https://github.com/WebGoat/WebGoat/releases)
+
+```shell
+java -Dfile.encoding=UTF-8 -Dwebgoat.port=8080 -Dwebwolf.port=9090 -jar webgoat-2023.4.jar
+```
+
+Click the link in the log to start WebGoat.
