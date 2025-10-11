@@ -1,0 +1,48 @@
+audience:
+  - breaker
+  - builder
+  - defender
+community:
+  - name: project-webgoat
+    platform: slack
+    url: https://owasp.slack.com/archives/C0948GVLM
+    description: Discussion about WebGoat project usage, development and implementation.
+leaders:
+  - name: Nanne Baars
+    email: nanne.baars@owasp.org
+    github: nbaars
+  - name: René Zubčević
+    email: rene.zubcevic@owasp.org
+    github: zubcevic
+level: 3
+license:
+  - GPL-2.0
+name: OWASP WebGoat
+pitch: Description for OWASP WebGoat
+repositories:
+  - name: www-project-webgoat
+    url: https://github.com/OWASP/www-project-webgoat
+    description: OWASP Foundation Web Repository
+  - name: groovygoat
+    url: https://github.com/WebGoat/groovygoat
+    description: POC for dynamic groovy/thymeleaf based lesson system
+  - name: WebGoat
+    url: https://github.com/WebGoat/WebGoat
+    description: WebGoat is a deliberately insecure application
+  - name: WebGoat-Archived-Releases
+    url: https://github.com/WebGoat/WebGoat-Archived-Releases
+    description: WebGoat 5.4 releases and older
+  - name: WebGoat-Legacy
+    url: https://github.com/WebGoat/WebGoat-Legacy
+    description: Legacy WebGoat 6.0 - Deliberately insecure JavaEE application
+  - name: WebGoat-Lessons
+    url: https://github.com/WebGoat/WebGoat-Lessons
+    description: 7.x - The WebGoat STABLE lessons supplied by the WebGoat team.
+  - name: WebWolf
+    url: https://github.com/WebGoat/WebWolf
+tags:
+  - webgoat
+  - custom-tag-1
+  - custom-tag-2
+type: tool
+website: https://owasp.org/www-project-webgoat
